@@ -696,7 +696,7 @@ def main():
         
         st.divider()
         st.markdown("### ⚙️ Configuration")
-        excel_path = st.text_input("Chemin fichier Excel", value=r"C:\Users\HP 1030 G2\OneDrive\Bureau\projetV2\crtv-flyaway-monitor\data\flyaway_log_annuel_2025-1")
+        excel_path = st.text_input("Chemin fichier Excel", value=r"data/flyaway_log_annuel_2025-1.xlsx")
         sheet_name = st.text_input("Feuille", value=DEFAULT_SHEET_NAME)
         uploaded_file = st.file_uploader(
             "Ou déposez le fichier Excel ici",
