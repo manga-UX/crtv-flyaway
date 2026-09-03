@@ -739,11 +739,10 @@ def main():
             st.write("🛰️")
     
     with col_titre:
-        st.markdown("# 🛰️ CRTV Fly-Away v3.3")
-        st.markdown("#### Authentification + Rapports Transmission")
+        st.markdown("#CRTV Fly-Away")
+        st.markdown("#### MONITORING")
         st.caption(
             f"📍 {st.session_state.agent_lieu} | "
-            f"📅 {reference_now.strftime('%Y-%m-%d %H:%M:%S')}"
         )
     
     st.divider()
