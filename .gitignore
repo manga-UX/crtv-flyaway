@@ -1,0 +1,39 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# Données
+*.xlsx
+*.xls
+data/
+
+# Secrets
+.streamlit/secrets.toml
+agents.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Rapports générés
+*.pdf
+*.zip
+
+# Cache Streamlit
+.streamlit/
+
+# Logs
+*.log
