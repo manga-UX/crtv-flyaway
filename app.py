@@ -732,14 +732,14 @@ def main():
     with col_logo:
         if os.path.exists(DEFAULT_LOGO_PATH):
             try:
-                st.image(Image.open(DEFAULT_LOGO_PATH), width=80)
+                st.image(Image.open(DEFAULT_LOGO_PATH), width=140)
             except Exception:
                 st.write("🛰️")
         else:
             st.write("🛰️")
     
     with col_titre:
-        st.markdown("#CRTV Fly-Away")
+        st.markdown(" ")
         st.markdown("#### MONITORING")
         st.caption(
             f"📍 {st.session_state.agent_lieu} | "
